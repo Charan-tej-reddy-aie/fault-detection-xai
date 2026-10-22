@@ -1,0 +1,3 @@
+Method,Accuracy,Time_Seconds
+Variable Elimination (Exact),0.9433,0.0158
+"Likelihood Sampling (Approximate, N=50)",0.96,225.76

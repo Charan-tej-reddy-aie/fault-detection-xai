@@ -1,0 +1,7 @@
+Experiment,Train_Samples,Test_Samples,Accuracy,Precision,Recall,F1
+Pure Physical Sensors (Random Split),80000,20000,0.919,0.8446,0.919,0.8802
+Multi-Modal Sensors+Op (Random Split),80000,20000,0.9268,0.9266,0.9268,0.9247
+Pure Physical Sensors (Unseen Machines 41-50),80095,19905,0.9184,0.8434,0.9184,0.8793
+Multi-Modal Sensors+Op (Unseen Machines 41-50),80095,19905,0.9242,0.9266,0.9242,0.924
+Pure Physical Sensors (Chronological Time Split),80000,20000,0.919,0.8445,0.919,0.8801
+Multi-Modal Sensors+Op (Chronological Time Split),80000,20000,0.9246,0.9256,0.9246,0.9236

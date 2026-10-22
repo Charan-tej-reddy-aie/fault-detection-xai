@@ -1,0 +1,10 @@
+Feature,Mutual_Information,Type
+machine_status,0.25210697251712455,Operational Flag
+maintenance_required,0.14930587469002288,Operational Flag
+humidity,0.0008772807132573224,Physical Sensor
+temperature,0.0008172730410771489,Physical Sensor
+downtime_risk,0.0003930018722366757,Operational Flag
+energy_consumption,0.0,Physical Sensor
+pressure,0.0,Physical Sensor
+vibration,0.0,Physical Sensor
+anomaly_flag,0.0,Operational Flag

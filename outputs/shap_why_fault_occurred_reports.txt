@@ -1,0 +1,256 @@
+=====================================================================================
+ INDUSTRIAL MACHINE FAULT DIAGNOSIS - SHAP EXPLAINABILITY ROOT-CAUSE REPORTS
+ Answering: 'Why did this specific fault occur and what features drove the decision?'
+=====================================================================================
+
+TEST SAMPLE #1946
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Overheating (Confidence: 40.24%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Humidity showed anomalous signals, delivering strongest positive attribution (+0.0064) driving model to diagnose 'Overheating'.
+      - CONTRIBUTING SECONDARY FACTOR: Machine Status reading reinforced the condition with positive attribution (+0.0056).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #366
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Pressure Drop (Confidence: 37.99%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0125) driving model to diagnose 'Pressure Drop'.
+      - CONTRIBUTING SECONDARY FACTOR: Vibration reading reinforced the condition with positive attribution (+0.0066).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2494
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Pressure Drop (Confidence: 39.67%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Maintenance Required showed anomalous signals, delivering strongest positive attribution (+0.0121) driving model to diagnose 'Pressure Drop'.
+      - CONTRIBUTING SECONDARY FACTOR: Machine Status reading reinforced the condition with positive attribution (+0.0120).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1096
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Pressure Drop (Confidence: 45.68%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0142) driving model to diagnose 'Pressure Drop'.
+      - CONTRIBUTING SECONDARY FACTOR: Maintenance Required reading reinforced the condition with positive attribution (+0.0060).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2387
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Overheating (Confidence: 37.26%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Temperature showed anomalous signals, delivering strongest positive attribution (+0.0079) driving model to diagnose 'Overheating'.
+      - CONTRIBUTING SECONDARY FACTOR: Machine Status reading reinforced the condition with positive attribution (+0.0070).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #222
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Pressure Drop (Confidence: 33.53%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Vibration showed anomalous signals, delivering strongest positive attribution (+0.0064) driving model to diagnose 'Pressure Drop'.
+      - CONTRIBUTING SECONDARY FACTOR: Humidity reading reinforced the condition with positive attribution (+0.0060).
+      - MITIGATING FACTOR: Pressure (-0.0066) remained nominal.
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #947
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Vibration Issue (Confidence: 42.81%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0139) driving model to diagnose 'Vibration Issue'.
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #483
+  * Actual Status    : Electrical Fault
+  * Model Diagnosis  : Vibration Issue (Confidence: 56.33%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Maintenance Required showed anomalous signals, delivering strongest positive attribution (+0.0144) driving model to diagnose 'Vibration Issue'.
+      - CONTRIBUTING SECONDARY FACTOR: Anomaly Flag reading reinforced the condition with positive attribution (+0.0122).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2101
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 99.97%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Maintenance Required (Attribution: +0.0069).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2001
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 100.0%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Machine Status (Attribution: +0.0035).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2160
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 100.0%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Machine Status (Attribution: +0.0031).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2823
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 100.0%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Machine Status (Attribution: +0.0040).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2538
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 100.0%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Maintenance Required (Attribution: +0.0032).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1977
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 99.95%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Machine Status (Attribution: +0.0047).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2912
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 93.91%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Anomaly Flag (Attribution: +0.0074).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2778
+  * Actual Status    : Normal
+  * Model Diagnosis  : Normal (Confidence: 100.0%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - All sensor readings and operational telemetry operated consistently within nominal parameters.
+      - Primary stabilizing feature: Machine Status (Attribution: +0.0046).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #107
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Overheating (Confidence: 37.18%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0165) driving model to diagnose 'Overheating'.
+      - CONTRIBUTING SECONDARY FACTOR: Energy Consumption reading reinforced the condition with positive attribution (+0.0085).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #872
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Overheating (Confidence: 34.62%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0068) driving model to diagnose 'Overheating'.
+      - CONTRIBUTING SECONDARY FACTOR: Energy Consumption reading reinforced the condition with positive attribution (+0.0053).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #268
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Vibration Issue (Confidence: 45.71%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0134) driving model to diagnose 'Vibration Issue'.
+      - CONTRIBUTING SECONDARY FACTOR: Anomaly Flag reading reinforced the condition with positive attribution (+0.0093).
+      - MITIGATING FACTOR: Temperature (-0.0065) remained nominal.
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1703
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Overheating (Confidence: 29.77%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0136) driving model to diagnose 'Overheating'.
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1481
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Vibration Issue (Confidence: 28.92%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Humidity showed anomalous signals, delivering strongest positive attribution (+0.0089) driving model to diagnose 'Vibration Issue'.
+      - MITIGATING FACTOR: Energy Consumption (-0.0057) remained nominal.
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1193
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Vibration Issue (Confidence: 38.48%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0085) driving model to diagnose 'Vibration Issue'.
+      - CONTRIBUTING SECONDARY FACTOR: Maintenance Required reading reinforced the condition with positive attribution (+0.0074).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1842
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Vibration Issue (Confidence: 29.86%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0133) driving model to diagnose 'Vibration Issue'.
+      - CONTRIBUTING SECONDARY FACTOR: Maintenance Required reading reinforced the condition with positive attribution (+0.0077).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #1296
+  * Actual Status    : Overheating
+  * Model Diagnosis  : Overheating (Confidence: 47.89%)
+  * Diagnosis Match  : CORRECT
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0176) driving model to diagnose 'Overheating'.
+      - CONTRIBUTING SECONDARY FACTOR: Vibration reading reinforced the condition with positive attribution (+0.0117).
+
+-------------------------------------------------------------------------------------
+
+TEST SAMPLE #2346
+  * Actual Status    : Pressure Drop
+  * Model Diagnosis  : Vibration Issue (Confidence: 30.91%)
+  * Diagnosis Match  : DISCREPANCY
+  * Root Cause Explanation (SHAP Attribution Analysis):
+      - PRIMARY ROOT CAUSE TRIGGER: Machine Status showed anomalous signals, delivering strongest positive attribution (+0.0118) driving model to diagnose 'Vibration Issue'.
+      - CONTRIBUTING SECONDARY FACTOR: Vibration reading reinforced the condition with positive attribution (+0.0061).
+      - MITIGATING FACTOR: Pressure (-0.0051) remained nominal.
+
+-------------------------------------------------------------------------------------
+

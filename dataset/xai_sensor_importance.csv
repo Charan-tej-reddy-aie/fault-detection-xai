@@ -1,0 +1,6 @@
+sensor,mean_absolute_attribution
+temperature,0.0008895486
+energy_consumption,0.0006813357
+humidity,0.00066400383
+vibration,0.0006205241
+pressure,0.0005978704
