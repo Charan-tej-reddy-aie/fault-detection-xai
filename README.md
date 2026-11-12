@@ -12,8 +12,7 @@ A full interactive Streamlit dashboard is included to monitor machine health, ru
 
 ### How to Launch the Dashboard:
 ```powershell
-conda activate faultdiag_new
-cd C:\Users\devin\Desktop\prob_project
+pip install -r requirements.txt
 streamlit run app.py
 ```
 Open **[http://localhost:8501](http://localhost:8501)** in your browser.
@@ -46,16 +45,12 @@ Evaluated on the independent test split (2,974 sequences):
 
 ### Run in Jupyter Notebook:
 ```powershell
-conda activate faultdiag_new
-cd C:\Users\devin\Desktop\prob_project
 jupyter notebook notebook/new_prob.ipynb
 ```
-Select the **`Python (faultdiag_new)`** kernel and run all cells.
+Run all cells in your Python environment.
 
 ### Run via Command Line:
 ```powershell
-conda activate faultdiag_new
-cd C:\Users\devin\Desktop\prob_project
 python new_prob.py
 ```
 
