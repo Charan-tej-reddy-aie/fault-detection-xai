@@ -71,3 +71,8 @@ python test_deployment.py
 
 For complete technical details, mathematical formulation, and architecture diagrams, see **[DEPLOYMENT.md](DEPLOYMENT.md)**.
 
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
